@@ -1,0 +1,11 @@
+hipotesis,pregunta,autor,analisis,comparacion,test_estadistico,clientes_analizados,estadistico,p_valor,nivel_significacion,decision,conclusion
+1,¿Test mejora la finalización?,Salva,Principal,Test vs Control,Welch unilateral,50500,8.863468067325087,4.0048843353918406e-19,0.05,Rechazamos H0,Hay evidencia de que Test mejora la finalización.
+2,¿La mejora relativa supera el 5 %?,Salva,Principal,Test vs Control,Welch unilateral,50500,0.9927284774092082,0.16042363376348037,0.05,No rechazamos H0,No hay evidencia suficiente de que la mejora relativa supere el 5 %.
+3,¿La edad se relaciona con la finalización?,Salva,Principal,Control,Chi-cuadrado,23526,182.95809542709162,7.984759655741552e-37,0.05,Rechazamos H0,Hay evidencia de asociación entre edad y finalización.
+3,¿La edad se relaciona con la finalización?,Salva,Principal,Test,Chi-cuadrado,26961,200.46514632817977,1.5107739944280081e-40,0.05,Rechazamos H0,Hay evidencia de asociación entre edad y finalización.
+3,¿La edad se relaciona con la finalización?,Salva,Sin casos dudosos,Control,Chi-cuadrado,23363,179.15674759755035,5.124819043138333e-36,0.05,Rechazamos H0,Hay evidencia de asociación entre edad y finalización.
+3,¿La edad se relaciona con la finalización?,Salva,Sin casos dudosos,Test,Chi-cuadrado,26753,194.1087993838019,3.402194293154656e-39,0.05,Rechazamos H0,Hay evidencia de asociación entre edad y finalización.
+4,¿La antigüedad media difiere entre Test y Control?,Walnert,Principal,Test vs Control,Welch bilateral,50488,-1.7115258395121253,0.08699034968593344,0.05,No rechazamos H0,No hay evidencia suficiente de una diferencia en la antigüedad media.
+4,¿La antigüedad media difiere entre Test y Control?,Walnert,Sin casos dudosos,Test vs Control,Welch bilateral,50117,-2.0985445772111304,0.035862165678191595,0.05,Rechazamos H0,Hay evidencia de una diferencia en la antigüedad media.
+5,¿La edad media difiere entre Test y Control?,Walnert,Principal,Test vs Control,Welch bilateral,50487,-2.416068061200627,0.015692719461388675,0.05,Rechazamos H0,Hay evidencia de una diferencia en la edad media.
+5,¿La edad media difiere entre Test y Control?,Walnert,Sin casos dudosos,Test vs Control,Welch bilateral,50116,-2.353591500169996,0.01859694220158058,0.05,Rechazamos H0,Hay evidencia de una diferencia en la edad media.
